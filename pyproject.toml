@@ -1,13 +1,12 @@
 [tool.poetry]
 name = "locust-stress-test"
 version = "0.1.0"
-description = "Stress test examples using the lib locust"
-authors = ["Thiago Ferreira <th.thiago96@gmail.com>"]
+description = "test using the lib locust"
+authors = ["Gabriel Roger <gabriel.nroger@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
 locust = "^2.4.1"
-lorem = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
