@@ -13,7 +13,7 @@ class WebsiteUser(HttpUser):
         payloads = f.readlines()
 
     @task(1)
-    def post_dna_predict(self):
+    def post(self):
         headers = {'content-type': 'application/json'}
         payload = random.choice(self.payloads)
         json_payload = json.loads(payload)
